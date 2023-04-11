@@ -10,6 +10,8 @@
 
 欢迎各位大佬来一起学习交流
 
+![example](https://user-images.githubusercontent.com/3754125/231212559-63071a19-1d21-4ff9-b583-3a86c2c064ff.png)
+
 ## 使用方式
 
 1. 安装requirements.txt中的依赖
