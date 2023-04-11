@@ -1,10 +1,13 @@
 # 和风天气-QChatGPT插件
 
 这是一个[QChatGPT项目](https://github.com/RockChinQ/QChatGPT)的插件
+
 通过命令在QQ对话框输入`天气 <地点>`，通过和风天气的API查询最近3天的天气情况
 
 注意：由于我只开了ChatGPT Plus，所以目前仅支持`revLibs`插件的逆向方式
+
 本插件只是尝试使用langchain的提示语模板功能，以及在插件中进行多轮对话实现LLM应用的实验插件
+
 欢迎各位大佬来一起学习交流
 
 ## 使用方式
