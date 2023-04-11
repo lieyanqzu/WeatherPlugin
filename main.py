@@ -5,7 +5,7 @@ import requests
 
 from pkg.plugin.models import *
 from pkg.plugin.host import EventContext, PluginHost
-from plugins.hello_plugin.template import API_KEY, BOT_TAG_PATTERN, LOCATION_PROMPT, API_PROMPT, WEATHER_PROMPT
+from plugins.WeatherPlugin.template import API_KEY, BOT_TAG_PATTERN, LOCATION_PROMPT, API_PROMPT, WEATHER_PROMPT
 
 
 """
@@ -15,7 +15,7 @@ from plugins.hello_plugin.template import API_KEY, BOT_TAG_PATTERN, LOCATION_PRO
 
 # 注册插件
 @register(name="Weather", description="和风天气", version="0.1", author="lieyanqzu")
-class HelloPlugin(Plugin):
+class WeatherPlugin(Plugin):
 
     # 插件加载时触发
     # plugin_host (pkg.plugin.host.PluginHost) 提供了与主程序交互的一些方法，详细请查看其源码
@@ -68,7 +68,7 @@ class HelloPlugin(Plugin):
                     # 输出调试信息
                     logging.debug(reply)
 
-            # 回复消息 "hello, <发送者id>!"
+            # 回复消息
             event.add_return("reply", [reply])
 
             # 阻止该事件默认行为（向接口获取回复）
