@@ -10,6 +10,12 @@
 
 欢迎各位大佬来一起学习交流
 
+## 其他插件
+
+- [网页摘要插件](https://github.com/lieyanqzu/SummaryPlugin)
+
+## 使用示例
+
 ![example](https://user-images.githubusercontent.com/3754125/231212559-63071a19-1d21-4ff9-b583-3a86c2c064ff.png)
 
 ## 使用方式
