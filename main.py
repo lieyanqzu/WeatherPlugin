@@ -73,6 +73,7 @@ class WeatherPlugin(Plugin):
 
             # 阻止该事件默认行为（向接口获取回复）
             event.prevent_default()
+            event.prevent_postorder()
 
     # 插件卸载时触发
     def __del__(self):
